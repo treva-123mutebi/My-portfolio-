@@ -1,4 +1,4 @@
 ### Portfolio inspired by COD MW design.
 
-Explore => https://jaeger-dvlp.dev
+Explore => https://mutebidavidtrevor.netlify.com
 # My-portfolio-
