@@ -7,10 +7,10 @@ import BannerVideo from '../Videos/banner.mp4'
 
 export default function Homepage() {
   const DescTexts = [
-    'Lone rifleman.',
+    'Mutebi David Trevor.',
     'Full Stack Dev.',
-    'CQB Specialist.',
-    'MK-18 CQBR Enjoyer.',
+    'Creator of Ekaleerwe.',
+    'Code addict',
     'Just another day at office.'
   ]
 
@@ -60,7 +60,7 @@ export default function Homepage() {
                 className="text-3xl w-full font-pop font-medium text-gray-300 p-0 m-0"
                 style={{ letterSpacing: '5px' }}
               >
-                JAEGER
+                Welcome to my world.
               </h1>
               <span
                 className="desc overflow-hidden transition-all duration-300 text-sm uppercase text-zinc-400"
@@ -76,7 +76,7 @@ export default function Homepage() {
                 <button className="hover:text-white transform hover:-translate-y-0.5 transition-all duration-150">
                   <a
                     target="_blank"
-                    href="https://github.com/jaeger-dvlp/"
+                    href="https://github.com/treva-123mutebi"
                     rel="noreferrer"
                   >
                     {GithubIcon}
@@ -85,37 +85,21 @@ export default function Homepage() {
                 <button className="hover:text-white transform hover:-translate-y-0.5 transition-all duration-150">
                   <a
                     target="_blank"
-                    href="https://www.linkedin.com/in/of-kayalar"
+                    href="https://www.linkedin.com/in/david-mutebi-09bb77197/"
                     rel="noreferrer"
                   >
                     {LinkedinIcon}
                   </a>
                 </button>
-                <button className="hover:text-white transform hover:-translate-y-0.5 transition-all duration-150">
-                  <a
-                    target="_blank"
-                    href="https://discordapp.com/users/683438536854470718/"
-                    rel="noreferrer"
-                  >
-                    {DiscordIcon}
-                  </a>
-                </button>
-                <button className="hover:text-white transform hover:-translate-y-0.5 transition-all duration-150">
-                  <a
-                    target="_blank"
-                    href="https://steamcommunity.com/id/jaeger-sf/"
-                    rel="noreferrer"
-                  >
-                    {SteamIcon}
-                  </a>
-                </button>
+                
+                
               </div>
             </div>
           </div>
         </div>
         <div className="w-full p-5 h-1/3 flex flex-wrap gap-5 justify-center content-center">
           <CODbutton
-            buttonText="OPERATOR INFORMATION"
+            buttonText="MY WORK INFORMATION"
             link="/operator-information"
           />
         </div>

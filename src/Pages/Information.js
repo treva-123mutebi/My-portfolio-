@@ -4,14 +4,19 @@ import backgroundGif from '../Images/noise.gif'
 export default function Information() {
   const TimeLine = [
     {
-      company: 'Zaxe 3D Printing Technologies',
+      company: 'Ekaleerwe',
       position: 'Full Stack Developer',
       startedAt: '01/08/2021'
     },
     {
-      company: 'Zaxe 3D Printing Technologies',
-      position: 'Intern',
-      startedAt: '01/09/2020'
+      company: 'Yellowbird',
+      position: 'Developer',
+      startedAt: '01/08/2020'
+    },
+    {
+      company: 'USAID',
+      position: 'Developer',
+      startedAt: '01/01/2018'
     }
   ]
 
@@ -32,7 +37,7 @@ export default function Information() {
             className="text-3xl w-full font-pop font-medium text-gray-300 p-0 m-0"
             style={{ letterSpacing: '5px' }}
           >
-            JAEGER
+           Profile.
           </h1>
           <span
             className="desc w-full overflow-hidden transition-all duration-300 text-sm uppercase text-zinc-400"
@@ -40,7 +45,7 @@ export default function Information() {
               letterSpacing: '10px'
             }}
           >
-            OPERATOR INFORMATION
+            PERSONAL INFORMATION
           </span>
           <div className="w-full operator-information flex flex-wrap justify-start text-sm mt-5 text-zinc-400">
             <table>
@@ -51,28 +56,19 @@ export default function Information() {
                 </tr>
                 <tr>
                   <td>STATUS</td>
-                  <td>Commissioned</td>
+                  <td> FREELANCING </td>
                 </tr>
-                <tr>
-                  <td>BLOOD GROUP</td>
-                  <td>A RH+</td>
-                </tr>
-                <tr>
-                  <td>UNIT</td>
-                  <td>22nd SAS Regiment</td>
-                </tr>
+                
+                
                 <tr>
                   <td>LOCATION</td>
-                  <td>Istanbul / Turkey</td>
+                  <td>Kampala, Uganda</td>
                 </tr>
                 <tr>
                   <td>LOCAL TIME</td>
                   <td>GMT +3</td>
                 </tr>
-                <tr>
-                  <td>SPECILIZATION</td>
-                  <td>CQB</td>
-                </tr>
+               
               </tbody>
             </table>
           </div>
@@ -82,7 +78,7 @@ export default function Information() {
               letterSpacing: '10px'
             }}
           >
-            OPERATOR ASSIGMENT TIMELINE
+            WORK TIMELINE
           </span>
           <div className="w-full flex flex-wrap mt-2 justify-start content-start">
             {TimeLine.map((timeline, x) => (
@@ -112,7 +108,7 @@ export default function Information() {
                   {timeline.position}
                 </p>
                 <p className="w-full pl-2 pt-4 timeline-header text-xs text-zinc-400 p-0 m-0 font-normal uppercase">
-                  COMMISIONED AT :<b> {timeline.startedAt}</b>
+                  STARTED AT :<b> {timeline.startedAt}</b>
                 </p>
               </div>
             ))}
